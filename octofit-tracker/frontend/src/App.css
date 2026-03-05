@@ -1,16 +1,83 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #222;
+}
+
 .App {
-  text-align: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav-link {
+  color: #f8f9fa !important;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.nav-link:hover {
+  color: #ffd700 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-header {
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.table {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.table th {
+  background: #007bff;
+  color: #fff;
+}
+.table td {
+  color: #222;
+}
+
+.btn {
+  background: linear-gradient(90deg, #00c6ff 0%, #0072ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.btn:hover {
+  background: linear-gradient(90deg, #0072ff 0%, #00c6ff 100%);
+  color: #ffd700;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #007bff;
+  font-weight: bold;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: #ffd700;
+}
+
+.logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
 }
 
 .App-header {
