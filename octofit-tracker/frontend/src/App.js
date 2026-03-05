@@ -14,7 +14,7 @@ function App() {
       <header className="mb-4">
         <nav className="navbar navbar-expand-lg navbar-dark">
           <a className="navbar-brand d-flex align-items-center" href="/">
-            <img src={process.env.PUBLIC_URL + '/octofitapp-small.png'} alt="Octofit Logo" className="logo" /> 
+            <img src={process.env.PUBLIC_URL + '/octofitapp-small.png'} alt="Octofit Logo" className="logo" />
             Octofit Tracker
           </a>
           <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
